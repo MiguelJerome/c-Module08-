@@ -1,0 +1,22 @@
+# Ignore object files and executables
+*.o
+*.out
+
+# Ignore build directories
+build/
+bin/
+
+# Ignore Visual Studio Code specific files
+.vscode/
+*.code-workspace
+
+# Ignore compiled libraries
+lib/
+*.a
+*.so
+
+# Ignore any backup or temporary files
+*~
+\#*\#
+.DS_Store
+Thumbs.db
